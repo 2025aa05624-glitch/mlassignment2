@@ -30,12 +30,12 @@ Implemented:
 
 | Classifier | Notes on Performance |
 |------------|----------------------|
-| LogReg    | Reliable, near-perfect on simple patterns. |
-| DecTree   | Average, tends to overfit pixel noise. |
-| KNeigh    | Excellent, suits distance-based image tasks. |
-| GausNB    | Poorest, assumptions don't fit data well. |
-| RandFor   | Good, ensembles help consistency. |
-| XGB       | Strong, boosting captures details. |
+| LogisticRegression    | Reliable, near-perfect on simple patterns. |
+| DecisionTree   | Average, tends to overfit pixel noise. |
+| KNN    | Excellent, suits distance-based image tasks. |
+| GaussianNaiveBias    | Poorest, assumptions don't fit data well. |
+| RandonForest   | Good, ensembles help consistency. |
+| XGBoost       | Strong, boosting captures details. |
 
 ## Setup
 1. Git clone https://github.com/2025aa05624-glitch/mlassignment2.git
@@ -47,5 +47,6 @@ Implemented:
 - Upload CSV (with 'target'), choose model, see results.
 
 ## App Link
+https://mlassignment2-lgqfm7shbfurkdzqlcneks.streamlit.app/
 
 
