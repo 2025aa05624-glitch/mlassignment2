@@ -7,12 +7,12 @@ import seaborn as sns
 
 # Load classifiers
 clf_paths = {
-    'LogReg': 'classifiers/LogReg.pkl',
-    'DecTree': 'classifiers/DecTree.pkl',
-    'KNeigh': 'classifiers/KNeigh.pkl',
-    'GausNB': 'classifiers/GausNB.pkl',
-    'RandFor': 'classifiers/RandFor.pkl',
-    'XGB': 'classifiers/XGB.pkl'
+    'LogReg': 'model/LogReg.pkl',
+    'DecTree': 'model/DecTree.pkl',
+    'KNeigh': 'model/KNeigh.pkl',
+    'GausNB': 'model/GausNB.pkl',
+    'RandFor': 'model/RandFor.pkl',
+    'XGB': 'model/XGB.pkl'
 }
 classifiers_loaded = {key: joblib.load(path) for key, path in clf_paths.items()}
 
