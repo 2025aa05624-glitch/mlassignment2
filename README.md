@@ -1,3 +1,15 @@
+<DOCUMENT filename="submission.pdf">
+
+# Assignment 2 Submission 
+Mutyala Sri Lakshmi Akhila (2025aa05624)
+1. GitHub Repository: 
+https://github.com/2025aa05624-glitch/mlassignment2.git/
+
+2. Live Streamlit App: 
+https://mlassignment2-lgqfm7shbfurkdzqlcneks.streamlit.app/
+
+3. Screenshot
+![alt text](image.png)
 # Classification App for Digits
 
 ## a. Problem Statement
@@ -44,7 +56,7 @@ Implemented:
 
 ## How to Use
 - streamlit run demo_app.py
-- Upload CSV (with 'target'), choose model, see results.
+- Upload CSV (with 'test_dataset' from repo), choose model, see results.
 
 ## App Link
 https://mlassignment2-lgqfm7shbfurkdzqlcneks.streamlit.app/

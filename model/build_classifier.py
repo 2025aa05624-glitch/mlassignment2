@@ -61,7 +61,7 @@ for clf_name, clf_pipe in classifiers.items():
     
     perf_dict[clf_name] = {'Accuracy': acc_val, 'AUC': auc_val, 'Precision': prec_val, 'Recall': rec_val, 'F1': f1_val, 'MCC': mcc_val}
     
-    joblib.dump(clf_pipe, f'classifiers/{clf_name}.pkl')
+    joblib.dump(clf_pipe, f'model/{clf_name}.pkl')
 
 print("Performance:")
 for name, vals in perf_dict.items():
@@ -70,4 +70,4 @@ for name, vals in perf_dict.items():
 # Save test for app
 test_set = features_test.copy()
 test_set['target'] = target_test
-test_set.to_csv('eval_data.csv', index=False)
+test_set.to_csv('test_dataset.csv', index=False)
